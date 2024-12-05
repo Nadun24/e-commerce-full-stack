@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\User\UserSignInController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/user', function () {
-    return response()->json(['data' => 'hi']);
-});
+Route::post('/user-sign-in', [UserSignInController::class, 'userSignIn']);
