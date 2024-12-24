@@ -35,7 +35,7 @@ final class AdminAuthenticationTest extends TestCase
         $response->assertJsonStructure([
             'user_first_name',
             'user_last_name',
-            'user_token'
+
         ]);
 
     }

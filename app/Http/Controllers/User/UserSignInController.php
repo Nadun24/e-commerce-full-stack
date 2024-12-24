@@ -11,7 +11,6 @@ class UserSignInController extends Controller
         return response()->json([
             'user_first_name' => "Nadun",
             "user_last_name" => "test",
-            "user_token" => "ajfejewih"
         ]);
     }
 }
